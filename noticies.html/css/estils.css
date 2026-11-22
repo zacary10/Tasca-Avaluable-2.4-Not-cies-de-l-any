@@ -1,0 +1,114 @@
+/* Estils de tota la web */
+
+/* Color de fons */
+body {
+  background-color: #FFFFEF;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Capçalera */
+#capcalera {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  text-align: center;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 32px;
+}
+
+h2 {
+  color: darkgreen;
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Imatge de la capçalera */
+.logo {
+  width: 200px;
+  border: 2px solid darkgreen;
+  margin-bottom: 10px;
+}
+
+/* Menú */
+#menu {
+  text-align: center;
+  margin: 15px;
+}
+
+/* Cada notícia */
+.noticia {
+  border: 1px solid darkgreen;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Text en negreta i vermell */
+.destacat {
+  color: red;
+  font-weight: bold;
+}
+
+/* Enllaços */
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/* Llista */
+ul {
+  list-style-type: square;
+}
+
+/* Taula */
+#taula {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#taula th, #taula td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+#taula th {
+  background-color: darkgreen;
+  color: white;
+}
+
+#taula tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
+/* Cita */
+.cita {
+  background-color: lightyellow;
+  border-left: 4px solid green;
+  padding: 5px 15px;
+}
+
+/* Vídeo */
+.video {
+  width: 480px;
+}
+
+/* Peu de pàgina */
+#peu {
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid darkgreen;
+  margin-top: 20px;
+}
